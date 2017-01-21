@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
 
+//Components
+import NavBar from '../Components/Nav.jsx';
 
 class App extends Component {
   constructor() {
@@ -13,8 +13,7 @@ class App extends Component {
     return (
      <MuiThemeProvider> 
       <div>      
-        <h1>Softballers</h1>
-        <RaisedButton label="Default" />
+        <NavBar />
       </div>
      </MuiThemeProvider> 
     )
